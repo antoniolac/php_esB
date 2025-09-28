@@ -37,6 +37,7 @@
 </head>
 <body>
     <?php
+        echo "<h1>Scontrino</h1>";
         echo "Ciao " . $nome . " " . $cognome . "<br>";
         echo "Hai acquistato " . $nprodotti . " " . $prodotti . "<br>";
         echo "Prezzo totale (senza IVA): " . $prezzo_senza_iva . " €<br>";
